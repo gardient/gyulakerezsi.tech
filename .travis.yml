@@ -8,7 +8,7 @@ script:
   - chmod u+x ./bin/hugo
   - ./bin/hugo
 
-before deploy:
+before_deploy:
   - openssl aes-256-cbc -in deploy/ssh-key.enc -out /tmp/deploy_rsa -d -k $PASS_483A65D8BC3F
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/deploy_rsa
