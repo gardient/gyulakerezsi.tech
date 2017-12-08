@@ -1,3 +1,6 @@
+addons:
+  ssh_known_hosts: gyulakerezsi.tech
+
 install:
   - rm -rf public || exit 0
 
