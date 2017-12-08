@@ -1,11 +1,8 @@
 install:
-  - pwd
-  - echo $TRAVIS_BUILD_DIR
   - rm -rf public || exit 0
 
 script:
-  - pwd
-  - echo $TRAVIS_BUILD_DIR
+  - chmod u+x ./bin/hugo
   - ./bin/hugo
 
 before deploy:
