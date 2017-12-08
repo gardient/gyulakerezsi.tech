@@ -1,0 +1,18 @@
+install:
+  - rm -rf public || exit 0
+
+script:
+  - ./bin/hugo
+
+before deploy:
+  - openssl aes-256-cbc -in deploy/ssh-key.enc -out /tmp/deploy_rsa -d -k $PASS_483A65D8BC3F
+  - eval "$(ssh-agent -s)"
+  - chmod 600 /tmp/deploy_rsa
+  - ssh-add /tmp/deploy_rsa
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public www-deploy@gyulakerezsi.tech:/usr/share/nginx/gyulakerezsi.tech/site
+  on:
+    branch: master
