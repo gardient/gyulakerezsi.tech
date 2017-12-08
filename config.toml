@@ -22,9 +22,13 @@ paginate = 10
     "javascript",
     "xml",
     "css",
-    "cs"
+    "cs",
+    "bash"
   ]
   dateFormat = "2006-01-02 15:04"
+  custom_css = [
+    "css/site-override.css"
+  ]
 
 [menu]
   # Shown in the side menu.
@@ -57,3 +61,6 @@ paginate = 10
   github = "gardient"
   gitlab = "gardient"
   deviantart = "gradientByte"
+
+[permalinks]
+  post = "/:year/:month/:title/"
