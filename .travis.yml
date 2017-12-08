@@ -17,6 +17,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -rog --delete-after --quiet --chown www-data:www-data $TRAVIS_BUILD_DIR/public/* www-deploy@gyulakerezsi.tech:/usr/share/nginx/gyulakerezsi.tech/site/
+  script: rsync -r --delete-after --quiet -og --chown=www-data:www-data $TRAVIS_BUILD_DIR/public/* www-deploy@gyulakerezsi.tech:/usr/share/nginx/gyulakerezsi.tech/site/
   on:
     branch: master
