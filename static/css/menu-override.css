@@ -1,0 +1,19 @@
+#menu {
+  overflow-y: visible;
+}
+
+#menu .pure-menu-has-children .pure-menu-children {
+  background-color: #191818;
+  width: auto;
+}
+
+#menu .pure-menu-has-children .pure-menu-children>.pure-menu-item>a {
+  word-break: keep-all;
+  white-space: nowrap;
+  display: block;
+  padding: 0.6em;
+}
+
+#menu .pure-menu-has-children.pure-menu-active>.pure-menu-link {
+  background: #333;
+}

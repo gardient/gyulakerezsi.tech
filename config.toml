@@ -27,8 +27,21 @@ paginate = 10
   ]
   dateFormat = "2006-01-02 15:04"
   custom_css = [
-    "css/site-override.css"
+    "css/site-override.css",
+    "css/menu-override.css"
   ]
+  custom_js = [
+    "js/pure-menu-dropdown.js"
+  ]
+
+[social]
+  twitter = "gradientByte"
+  github = "gardient"
+  gitlab = "gardient"
+  deviantart = "gradientByte"
+
+[permalinks]
+  post = "/:year/:month/:title/"
 
 [menu]
   # Shown in the side menu.
@@ -55,12 +68,10 @@ paginate = 10
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
     url = "/contact/"
-
-[social]
-  twitter = "gradientByte"
-  github = "gardient"
-  gitlab = "gardient"
-  deviantart = "gradientByte"
-
-[permalinks]
-  post = "/:year/:month/:title/"
+  [[menu.main]]
+    name = "Random Stuff"
+    weight = 5
+  [[menu.main]]
+    name = "xkcd Calendar Fact Generator"
+    url = "/xkcd-calendar-facts/"
+    parent = "Random Stuff"

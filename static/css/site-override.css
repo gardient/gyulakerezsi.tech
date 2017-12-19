@@ -22,3 +22,11 @@ p code{
   color: #A55;
   white-space: nowrap;
 }
+
+button {
+  padding: 0.3em 0.6em;
+  color: #999;
+  background: #191818;
+  border: #393838 solid 1px;
+  border-radius: 3px;
+}
