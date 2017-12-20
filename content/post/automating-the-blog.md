@@ -153,4 +153,4 @@ two tutorials than to perfectly follow one.
 
 And that's how this is done.
 
-I 33 tabs open, and have automated the deployment of this blog.
+I have 33 open tabs, and automated the deployment of this blog.
