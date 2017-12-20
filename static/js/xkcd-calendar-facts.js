@@ -184,14 +184,8 @@ let generateXkcdCalendarFact = (function () { // eslint-disable-line no-unused-v
     '</u>'
   ]
 
-  function getRandomItem (arr) {
-    if (!Array.isArray(arr)) throw new TypeError('This is not an array yo!')
-
-    return arr[(Math.floor(Math.random() * arr.length))]
-  }
-
   function pickRandom (arr) {
-    let rnd = getRandomItem(arr)
+    let rnd = arr[(Math.floor(Math.random() * arr.length))]
 
     if (Array.isArray(rnd)) return pickOneOfEach(rnd)
     else return rnd

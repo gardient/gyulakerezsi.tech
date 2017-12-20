@@ -6,7 +6,8 @@ install:
 
 script:
   - chmod u+x ./bin/hugo
-  - ./bin/hugo
+  - ./bin/hugo --canonifyURLs
+  - ./bin/hugo -b https://gyulakerezsi.tech -d ./public.tech/ --canonifyURLs
 
 before_deploy:
   - openssl aes-256-cbc -in deploy/ssh-key.enc -out /tmp/deploy_rsa -d -k $PASS_483A65D8BC3F
@@ -17,6 +18,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet -og --chown=www-data:www-data $TRAVIS_BUILD_DIR/public/* www-deploy@gyulakerezsi.tech:/usr/share/nginx/gyulakerezsi.tech/site/
+  script: . ./deploy/deploy.sh
   on:
     branch: master

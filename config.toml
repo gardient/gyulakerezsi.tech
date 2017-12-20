@@ -1,4 +1,4 @@
-baseURL = "https://gyulakerezsi.tech/"
+baseURL = "https://gyulakerezsi.ro/"
 languageCode = "en-us"
 title = "Gyula's blog"
 theme = "blackburn"
@@ -23,7 +23,8 @@ paginate = 10
     "xml",
     "css",
     "cs",
-    "bash"
+    "bash",
+    "ini"
   ]
   dateFormat = "2006-01-02 15:04"
   custom_css = [
@@ -70,6 +71,7 @@ paginate = 10
     url = "/contact/"
   [[menu.main]]
     name = "Random Stuff"
+    pre = "<i class='fa fa-random fa-fw'></i>"
     weight = 5
   [[menu.main]]
     name = "xkcd Calendar Fact Generator"

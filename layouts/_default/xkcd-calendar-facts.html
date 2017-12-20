@@ -1,16 +1,8 @@
-{{ partial "header.html" . }}
-
-<div class="header">
-  <h1>{{ .Title }}</h1>
-  <h2>{{ .Description }}</h2>
-</div>
-<div class="content">
+{{ define "content"}}
   {{ .Content }}
 
   <blockquote id="xkcd-calendar-fact">
   </blockquote>
   <p><button id="generate-xkcd-calendar-fact">Generate new fact</button></p>
   <script src="/js/xkcd-calendar-facts.js"></script>
-</div>
-
-{{ partial "footer.html" . }}
+{{ end }}
