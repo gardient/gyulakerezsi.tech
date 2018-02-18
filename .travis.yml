@@ -3,7 +3,6 @@ addons:
 
 install:
   - rm -rf public || exit 0
-  - git submodule init
 
 script:
   - chmod u+x ./bin/hugo
