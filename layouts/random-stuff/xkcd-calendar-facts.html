@@ -1,0 +1,16 @@
+{{ define "main"}}
+  <div class="header">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  {{ .Content }}
+
+  <blockquote class="blockquote">
+    <p id="xkcd-calendar-fact"></p>
+    <footer class="blockquote-footer"><cite title="xkcd Calendar Fact">xkcd Calendar Fact</cite></footer>
+  </blockquote>
+  <p>
+    <button class="btn btn-primary" id="generate-xkcd-calendar-fact">Generate new fact</button>
+  </p>
+  <script src="/js/xkcd-calendar-facts.js"></script>
+{{ end }}

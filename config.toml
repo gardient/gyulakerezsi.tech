@@ -1,15 +1,11 @@
 baseURL = "https://gyulakerezsi.ro/"
 languageCode = "en-us"
 title = "Gyula's blog"
-theme = "blackburn"
+theme = "hugo-bootswatch-slate"
 author = "Gyula Kerezsi"
 copyright = "&copy; 2017. All rights reserved."
 canonifyurls = true
 paginate = 10
-
-[indexes]
-  tag = "tags"
-  topic = "topics"
 
 [params]
   # Shown in the home page
@@ -28,12 +24,9 @@ paginate = 10
   ]
   dateFormat = "2006-01-02 15:04"
   custom_css = [
-    "css/site-override.css",
-    "css/menu-override.css"
+    "/css/site-override.css"
   ]
-  custom_js = [
-    "js/pure-menu-dropdown.js"
-  ]
+  custom_js = []
 
 [social]
   twitter = "gradientByte"
@@ -47,15 +40,9 @@ paginate = 10
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 1
-    identifier = "home"
-    url = "/"
-  [[menu.main]]
     name = "Posts"
     pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 2
+    weight = 1
     identifier = "post"
     url = "/post/"
   [[menu.main]]
@@ -73,7 +60,3 @@ paginate = 10
     name = "Random Stuff"
     pre = "<i class='fa fa-random fa-fw'></i>"
     weight = 5
-  [[menu.main]]
-    name = "xkcd Calendar Fact Generator"
-    url = "/xkcd-calendar-facts/"
-    parent = "Random Stuff"

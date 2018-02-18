@@ -2,7 +2,7 @@
 title: "Automating the Blog"
 date: 2017-12-08T21:32:41+02:00
 tags: ["Hugo", "Travis CI", "Automation"]
-topics: ["Hugo", "CI", "Automation"]
+categories: ["Hugo", "CI", "Automation"]
 description: "Automating Hugo with Travis CI"
 ---
 

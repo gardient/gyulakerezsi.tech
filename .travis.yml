@@ -1,13 +1,13 @@
 addons:
-  ssh_known_hosts: gyulakerezsi.tech
+  ssh_known_hosts: gyulakerezsi.ro
 
 install:
   - rm -rf public || exit 0
+  - git submodule init
 
 script:
   - chmod u+x ./bin/hugo
   - ./bin/hugo --canonifyURLs
-  - ./bin/hugo -b https://gyulakerezsi.tech -d ./public.tech/ --canonifyURLs
 
 before_deploy:
   - openssl aes-256-cbc -in deploy/ssh-key.enc -out /tmp/deploy_rsa -d -k $PASS_483A65D8BC3F

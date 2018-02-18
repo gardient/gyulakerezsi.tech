@@ -2,7 +2,7 @@
 title: "xkcd Calendar Fact Generator"
 date: 2017-12-20T13:12:09+02:00
 tags: ["javascript", "hugo"]
-topics: ["hugo"]
+categories: ["hugo"]
 description: "How I made a calendar fact generator based on a webcomic and then fell into the rabbit-hole of customizing Hugo"
 ---
 
