@@ -172,6 +172,14 @@ let generateXkcdCalendarFact = (function () { // eslint-disable-line no-unused-v
     ],
     'it\'s getting worse and no one knows why.'
   ]
+  
+  let trivia = [
+    'causes huge headaches for software developers',
+    'is taken advantage of by high-speed traders',
+    'triggered the 2003 Northeast Blackout',
+    'has to be corrected for by GPS satellites',
+    'is now recognized as a major cause of World War I'
+  ]
 
   let actualDataStructure = [ // pick one of each
     'Did you know that <u>',
@@ -181,6 +189,8 @@ let generateXkcdCalendarFact = (function () { // eslint-disable-line no-unused-v
     third,
     '</u>? Apparently <u>',
     fourth,
+    '</u><br />While it may seem like trivia, it <u>',
+    trivia,
     '</u>'
   ]
 
