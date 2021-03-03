@@ -29,13 +29,16 @@ saw the example and `$index` is always there for you.
 And then you have a list that only changes it's length.
 
 If you read the warning on [ngRepeat's page](https://docs.angularjs.org/api/ng/directive/ngRepeat#tracking-and-duplicates)
-you might remove your one time bindings.
+you might remove your one time bindings.  
+(They actually changed this to the best practice of using a unique identifier such
+as item.id, I would give you a wayback link but they all look like
+[this](https://web.archive.org/web/20170930222650/https://docs.angularjs.org/api/ng/directive/ngRepeat))
 
->Avoid using track by $index when the repeated template contains one-time
->bindings. In such cases, the nth DOM element will always be matched with the
->nth item of the array, so the bindings on that element will not be updated even
->when the corresponding item changes, essentially causing the view to get
->out-of-sync with the underlying data.
+> Avoid using track by $index when the repeated template contains one-time
+> bindings. In such cases, the nth DOM element will always be matched with the
+> nth item of the array, so the bindings on that element will not be updated even
+> when the corresponding item changes, essentially causing the view to get
+> out-of-sync with the underlying data.
 
 But I didn't, and then spent an hour trying to figgure it out.
 
