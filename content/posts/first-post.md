@@ -1,9 +1,12 @@
 ---
-title: "First Post"
+title: First Post
 date: 2017-11-15T19:18:24+02:00
-tags: ["Hugo"]
-categories: ["Hugo"]
-description: "My experience with Hugo"
+tags: 
+  - hugo
+  - blog
+categories: 
+  - hugo
+description: My experience with Hugo
 ---
 
 So for the first post on my blog I will tell you about my experience with [Hugo](https://gohugo.io)

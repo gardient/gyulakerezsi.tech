@@ -1,9 +1,12 @@
 ---
-title: "My Experience With Tracking by $index"
+title: My Experience With Tracking by $index
 date: 2017-12-20T14:16:48+02:00
-tags: ["javascript", "angular"]
-categories: ["angular"]
-description: "Why I hate 'track by $index'"
+tags:
+  - javascript
+  - angular
+categories:
+  - angular
+description: Why I hate 'track by $index'
 ---
 
 If you found this post while trying to optimize your angular templates, I have a

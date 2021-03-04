@@ -1,9 +1,13 @@
 ---
-title: "Making My Own Theme"
+title: Making My Own Theme
 date: 2018-02-18T19:11:24+02:00
-tags: ['hugo', 'bootstrap']
-categories: ['hugo']
-description: "...saying that is a bit of a stretch"
+tags:
+  - hugo
+  - bootstrap
+  - blog
+categories:
+  - hugo
+description: ...saying that is a bit of a stretch
 ---
 
 So the theme i used until now was
