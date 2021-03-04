@@ -1,0 +1,17 @@
+{{ define "main" }}
+  <div class="header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }} <h2>{{ . }}</h2> {{ end }}
+  </div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+  <div class="pages">
+    {{ $paginator := .Paginate .Pages.ByTitle }}
+    {{ range $paginator.Pages }}
+      {{ .Render "summary" }}
+    {{ end }}
+
+    {{ partial "pagination.html" $paginator }}
+  </div>
+{{ end }}
