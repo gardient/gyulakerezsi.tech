@@ -6,9 +6,9 @@ tags:
   - Travis CI
   - automation
   - blog
+  - CI
 categories:
   - Hugo
-  - CI
   - Automation
 description: Automating Hugo with Travis CI
 ---
