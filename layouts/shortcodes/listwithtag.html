@@ -1,0 +1,4 @@
+{{$ctx := .Page}}
+{{range (.Site.RegularPages.RelatedTo (keyVals "tags" (.Get 0))).ByDate}}
+  - [{{.Title}}]({{ref $ctx .Path}})
+{{end}}
