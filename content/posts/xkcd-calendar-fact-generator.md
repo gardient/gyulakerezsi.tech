@@ -13,7 +13,7 @@ Then I went down the rabbit-hole that is customizing Hugo.
 
 # But first the generator
 
-You can check it out [here](/xkcd-calendar-facts/)
+You can check it out [here](/random-stuff/xkcd-calendar-facts/)
 
 The application itself is rather simple, it is carried by two functions, calling
 each other.
@@ -56,7 +56,8 @@ will let you mix and match. On the other hand you have to be careful how you use
 these values.
 
 So you can make an array that has both strings and other arrays as elements. You
-can't pull this in TypeScript without using the `ANY` type.
+can't pull this in TypeScript without using the `ANY` type.  
+(correction: you can make something like `type recursiveType = Array<string | recursiveType>`. And how awesome is that?)
 
 So for usage you would just
 
