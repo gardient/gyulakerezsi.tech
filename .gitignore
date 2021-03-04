@@ -2,6 +2,13 @@
 # Created by https://www.gitignore.io/api/hugo
 
 ### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+
+# Executable may be added to repository
 hugo.exe
-/public*/
+hugo.darwin
+hugo.linux
 # End of https://www.gitignore.io/api/hugo
