@@ -25,7 +25,7 @@ social:
   deviantart: gradientByte
 
 permalinks:
-  post: /:year/:month/:title/
+  posts: /:year/:month/:title/
 
 menu:
   # Shown in the side menu.
