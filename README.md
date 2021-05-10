@@ -1,3 +1,3 @@
 # gyulakerezsi.tech
 
-[![Build & Deploy](https://github.com/gardient/gyulakerezsi.tech/actions/workflows/main.yml/badge.svg)](https://github.com/gardient/gyulakerezsi.tech/actions/workflows/main.yml)
+[![CI/CD](https://github.com/gardient/gyulakerezsi.tech/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/gardient/gyulakerezsi.tech/actions/workflows/main.yml)
