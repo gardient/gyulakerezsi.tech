@@ -39,6 +39,7 @@ jobs:
       - name: RSyncer Action
         # You may pin to the exact commit or the version.
         # uses: Pendect/action-rsyncer@2554a1e574cf229fb144f23ea5971dbdca8ae8e3
+        id: deploy
         uses: Pendect/action-rsyncer@v1.1.0
         env:
           DEPLOY_KEY: ${{secrets.DEPLOY_KEY}}
