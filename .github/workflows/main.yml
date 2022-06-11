@@ -49,7 +49,7 @@ jobs:
           # Rsync options (exclusion)
           options: '' # default is
           # SSH command line options
-          ssh_options: '' # default is
+          ssh_options: '-p 6532' # default is
           # Local folder to be synced
           src: public/*
           # Remote server and path. i.e user@server.com:/var/www/server.com/
