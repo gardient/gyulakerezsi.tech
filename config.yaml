@@ -3,7 +3,7 @@ languageCode: en-us
 title: Gyula's blog
 theme: hugo-bootswatch-slate
 author: Gyula Kerezsi
-copyright: "&copy; 2017-2021. All rights reserved."
+copyright: "&copy; 2017-2022. All rights reserved."
 canonifyurls: true
 paginate: 10
 
