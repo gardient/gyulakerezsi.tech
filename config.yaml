@@ -1,4 +1,4 @@
-baseURL: https://gyulakerezsi.ro/
+baseURL: https://gyk.ro/
 languageCode: en-us
 title: Gyula's blog
 theme: hugo-bootswatch-slate
@@ -12,9 +12,9 @@ params:
   subtitle: and stuff
   brand: Gyula's blog
   highlightjs: atelier-estuary-dark
-  
+
   dateFormat: 2006-01-02 15:04
-  custom_css: 
+  custom_css:
     - /css/site-override.css
   custom_js: []
 

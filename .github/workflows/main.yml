@@ -53,7 +53,7 @@ jobs:
           # Local folder to be synced
           src: public/*
           # Remote server and path. i.e user@server.com:/var/www/server.com/
-          dest: www-deploy@gyulakerezsi.ro:/usr/share/nginx/gyulakerezsi.ro/
+          dest: www-deploy@gyk.ro:/var/www/gyk.ro/
 
       - name: Display status from deploy
         run: echo "${{ steps.deploy.outputs.status }}"
