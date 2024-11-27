@@ -5,7 +5,10 @@ theme: hugo-bootswatch-slate
 author: Gyula Kerezsi
 copyright: "&copy; 2017-2022. All rights reserved."
 canonifyurls: true
-paginate: 10
+# paginate: 10
+
+pagination:
+  pagerSize: 10
 
 params:
   # Shown in the home page
