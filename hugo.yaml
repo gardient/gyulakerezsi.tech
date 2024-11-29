@@ -3,7 +3,7 @@ languageCode: en-us
 title: Gyula's blog
 theme: hugo-bootswatch-slate
 author: Gyula Kerezsi
-copyright: "&copy; 2017-2022. All rights reserved."
+copyright: "&copy; 2017-2024. All rights reserved."
 canonifyurls: true
 # paginate: 10
 
@@ -53,5 +53,6 @@ menu:
       weight: 4
       url: /contact/
     - name: Random Stuff
+      identifier: random
       pre: <i class='fa fa-random fa-fw'></i>
       weight: 5
