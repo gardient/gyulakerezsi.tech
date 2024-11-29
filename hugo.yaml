@@ -21,11 +21,11 @@ params:
     - /css/site-override.css
   custom_js: []
 
-social:
-  twitter: gradientByte
-  github: gardient
-  gitlab: gardient
-  deviantart: gradientByte
+  social:
+    twitter: gradientByte
+    github: gardient
+    gitlab: gardient
+    deviantart: gradientByte
 
 permalinks:
   posts: /:year/:month/:title/
