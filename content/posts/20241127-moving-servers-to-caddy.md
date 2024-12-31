@@ -28,3 +28,16 @@ I'm starting to like caddy
 ### EDIT 2024-11-29
 
 Portainer and docker are running. Now to move Gitea.
+
+### EDIT 2024-11-30
+
+Moving gitea was a bit more painful than expected,mostly caused by the difference
+between direct hosting and hosting in docker.
+
+Getting the dump from the old server into the container was not as straight
+forward as expected, especially as I had moved a few files around.
+
+Probably shouldn't have bothered with moving my config file, just check default
+paths and dump things there
+
+All told about 3 hours spent on this
