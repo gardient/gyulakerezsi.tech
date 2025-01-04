@@ -14,7 +14,9 @@ params:
   # Shown in the home page
   subtitle: and stuff
   brand: Gyula's blog
-  highlightjs: atelier-estuary-dark
+  highlightjs: atom-one-dark-reasonable
+  highlightjs_extra_languages:
+  - powershell
 
   dateFormat: 2006-01-02 15:04
   custom_css:
