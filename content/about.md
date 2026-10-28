@@ -7,4 +7,4 @@ A thirty-something year old programmer from Romania
 
 Will spend a lot of time to automate a simple task rather than doing it by hand
 
-Will also bash his head at a problem until he either solves it, or gets distacted by food
+Will also bash his head at a problem until he either solves it, or gets distracted by food
